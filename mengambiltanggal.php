@@ -3,6 +3,12 @@
 	<title> Tanggalan </title>
 </head>
 <body>
-<?phpecho date("m-F-Y, g:i:s a"); ?>
+<?php
+	date_default_timezone_set('Asia/Jakarta'); 
+	//mengeset zona waktu dengan patokan asia/jakarta
+	
+	//untuk menampilkan tanggal dan waktu pada server
+	echo date("m-F-Y, g:i:s a"); ?>
+	
 </body>
 </html>
